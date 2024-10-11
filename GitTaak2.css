@@ -9,6 +9,14 @@ body{
     font-size: 14pt;
 }
 
+.hero_new__video{
+    position: absolute;
+    object-fit: fill;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
 .nav{
     display: flex;
     flex-direction: row;
@@ -34,7 +42,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     width: 33.33%;
-    background-color: red;
 }
 
 .menu ul{
