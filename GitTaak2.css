@@ -48,8 +48,22 @@ body{
 .login{
     float: left;
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 33.33%;
-    background-color: green;
+}
+
+.login-button{
+    padding: 5px 20px;
+    background-color: red;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.login-button > a:visited{
+    color: black;
 }
 
 a:link{
