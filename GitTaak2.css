@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    float: left;
+    display: flex;
+    width: 33.33%;
+    background-color: red;
+    padding: 16px;
+}
+
+.menu{
+    float: left;
+    display: flex;
+    width: 33.33%;
+    background-color: blue;
+}
+
+.login{
+    float: left;
+    display: flex;
+    width: 33.33%;
+    background-color: green;
+}
+
