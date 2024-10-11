@@ -77,6 +77,10 @@ a:link{
     text-decoration: none;
 }
 
+.menu ul a:link{
+    color: white;
+}
+
 .menu ul a:visited{
     text-decoration: none;
     color: white;
